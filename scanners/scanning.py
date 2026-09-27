@@ -34,7 +34,7 @@ def arp_scan():
         return
 
 def port_scan():
-    from scanners.port_scanner import portscanner, COMMON_PORTS
+    from scanners.portscanner import portscanner, COMMON_PORTS
     if memory.ips:
         print(f'{Fore.YELLOW}do you want scan this ips Y/n:\n')
         for ip in memory.ips:
