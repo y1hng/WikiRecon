@@ -194,6 +194,9 @@ def scanning_main():
         os.system('clear')
         color = Fore.LIGHTGREEN_EX
         reset = Style.RESET_ALL
+        with open("assets/banner.txt") as f:
+                    c = f.read()
+        print(f"""{Fore.LIGHTRED_EX}{c}""")
         print(
             f"{color}{'01. ARP_SCANNING':<25}{color}02. PORT_SCANNING{reset}\n"
             f"{color}{'03. BANNER_GRABBER':<25}{color}04. TRACEROUTE{reset}\n"
