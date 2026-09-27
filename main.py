@@ -15,6 +15,9 @@ def main():
         os.system('clear')
         color = Fore.LIGHTGREEN_EX
         reset = Style.RESET_ALL
+        with open("assets/banner.txt") as f:
+            c = f.read()
+        print(f"""{Fore.LIGHTRED_EX}{c}""")
         print(
             f"{color}{'01. SCANNERS':<25}"
             f"{color}{'02. CONFS':<25}{color}03. EXIT{reset}"
