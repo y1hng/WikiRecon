@@ -6,7 +6,7 @@ import math
 import html as html_lib
 from datetime import datetime
 from confs import configs as confs
-from scanners.traceoute import tracerouter as tracer
+from scanners.traceroute import tracerouter as tracer
 import scanners.arp_scanner as arp_scanner
 from scanners.portscanner import portscanner, COMMON_PORTS
 import scanners.banner_grabber as banner_grabber
