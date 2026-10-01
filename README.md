@@ -106,7 +106,7 @@ Variables of memory file:
 
 ```bash
 # 1. Clone the Repository
-git clone https://github.com/y1hng/WikiRecon.git https://github.com/y1hng/WikiRecon.git
+git clone https://github.com/y1hng/WikiRecon.git
 cd WikiRecon
 
 # 2. Install Required Dependencies
